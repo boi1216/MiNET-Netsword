@@ -178,26 +178,6 @@ namespace MiNET.Worlds
 				{232, new Mapper(218, (i, b) => (byte) (13 + (b << 4)))}, // => minecraft:green_shulker_box 
 				{233, new Mapper(218, (i, b) => (byte) (14 + (b << 4)))}, // => minecraft:red_shulker_box 
 				{234, new Mapper(218, (i, b) => (byte) (15 + (b << 4)))}, // => minecraft:black_shulker_box 
-
-				{235, new NoDataMapper(220)}, // => minecraft:white_glazed_terracotta
-				{236, new NoDataMapper(221)}, // => minecraft:orange_glazed_terracotta
-				{237, new NoDataMapper(222)}, // => minecraft:magenta_glazed_terracotta
-				{238, new NoDataMapper(223)}, // => minecraft:light_blue_glazed_terracotta
-				{239, new NoDataMapper(224)}, // => minecraft:yellow_glazed_terracotta
-				{240, new NoDataMapper(225)}, // => minecraft:lime_glazed_terracotta
-				{241, new NoDataMapper(226)}, // => minecraft:pink_glazed_terracotta
-				{242, new NoDataMapper(227)}, // => minecraft:gray_glazed_terracotta
-				{243, new NoDataMapper(228)}, // => minecraft:light_gray_glazed_terracotta
-				{244, new NoDataMapper(229)}, // => minecraft:cyan_glazed_terracotta
-				{245, new NoDataMapper(219)}, // => minecraft:purple_glazed_terracotta
-				{246, new NoDataMapper(231)}, // => minecraft:blue_glazed_terracotta
-				{247, new NoDataMapper(232)}, // => minecraft:brown_glazed_terracotta
-				{248, new NoDataMapper(233)}, // => minecraft:green_glazed_terracotta
-				{249, new NoDataMapper(234)}, // => minecraft:red_glazed_terracotta
-				{250, new NoDataMapper(235)}, // => minecraft:black_glazed_terracotta
-
-				{251, new NoDataMapper(236)}, // => minecraft:concrete
-				{252, new NoDataMapper(237)}, // => minecraft:concrete_powder
 			};
 		}
 
